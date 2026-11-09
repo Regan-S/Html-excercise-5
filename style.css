@@ -1,0 +1,84 @@
+/* Universal spacing adjust */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 70px; /* Prevents fixed nav from overlapping content */
+    background-color: #f9f9f9;
+}
+
+/* Navigation bar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    display: Flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: nono;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2 {
+    color: #2c3e50
+}
+
+.main-header {
+    text-align: centre;
+    margin: 30 px 0 10px 0;
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Blog post styling */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.blog-post {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px; /* Spacing between post */
+}
+
+.blog-post p {
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Links styling*/
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
